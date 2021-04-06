@@ -1,0 +1,24 @@
+/* miniprogram/添加笔记.wxss */
+/* 按钮 */
+.union{
+position: absolute;
+width: 48px;
+height: 48px;
+right: 16px;
+bottom: 66px;
+
+background: linear-gradient(90deg, #FFA526 0%, #FF720D 100%);
+box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+border-radius: 48px;
+
+
+/* Union */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+}

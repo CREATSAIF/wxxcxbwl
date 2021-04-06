@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="top-box" style="height: {{navHeight}}rpx">
+    <view class="logo-box" style="padding-top:{{statusHeight}}rpx">
+      <text>备忘录</text>  
+    </view>
+  </view>
+  <view class="title-box"><input type="text" value="{{title}}" placeholder="主题~" bindinput="titleEdit"></input></view>
+  <view class="edit-box">
+    <textarea placeholder="发生的新鲜事or需要记下来的事情" bindinput="contentEdit"></textarea>
+  </view>
+  <button type="primary" bindtap="submit">提交</button>
+</view> -->
+
+
+<view class="container">
+  <!-- <view class="top-box" style="height:{{navHeight}}rpx"> <view class="head" >备忘录</view>                                               </view> -->
+  <view class="head">备忘录</view>            
+  <view class="search-box" style="width: 674rpx; height: 64rpx; display: block; box-sizing: border-box; left: 0rpx; top: 149rpx; position: relative">
+    <image src="../../images/图片与图标/sousuo.png" style="width: 48rpx; height: 48rpx; display: inline-block; box-sizing: border-box; left: 22rpx; top: 8rpx; position: relative"> </image>
+  
+  <view class="search-text" style="width: 582rpx; height: 64rpx; display: block; box-sizing: border-box; left: 69rpx; top: -1rpx; position: absolute">搜索笔记
+  <view class="cont">
+  </view>
+  </view>
+</view>
+
+</view>

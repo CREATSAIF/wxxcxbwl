@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/index",
+    "pages/user/index",
+    "添加笔记"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#B6BECF",
+    "selectedColor": "#515E78",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./images/图片与图标/biji1.png",
+        "selectedIconPath": "./images/图片与图标/biji2.png",
+        "text": "笔记"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "iconPath": "./images/图片与图标/daiban1.png",
+        "selectedIconPath": "./images/图片与图标/daiban2.png",
+        "text": "待办"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
